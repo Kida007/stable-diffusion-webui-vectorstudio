@@ -112,7 +112,7 @@ class Script(scripts.Script):
         # Add the prompt from above
         p.prompt += StyleDict[poUseColor]
 
-        PO_TO_CALL = usefulDirs[0]+"/"+usefulDirs[1]+"/bin/potrace.exe"
+        PO_TO_CALL = "potrace"
         proc = process_images(p)
         mixedImages = []
 
